@@ -1,0 +1,22 @@
+# Updated by Shengze Wang 2023
+# enumerates all the event generators
+# Where args can currently be the following:
+# name            default         description
+# ---------------------------------------------------------------------------
+# wkn             1               the ip of the wellknown node (bootstrapper)
+# proto                           the name of the protocol (i.e. "Chord")
+# lifemean        100000          average time (ms) a node is alive at a time
+# deathmean       lifemean        average time (ms) a node is dead at a time
+# lookupmean      10000           average time (ms) between lookups per node
+# exittime        200000          length of the experiment (in ms)
+# ipkeys          false           generate lookups where keys are node IPs
+# datakeys        false           generate lookups where keys are data items
+# Join, crash, and lookup events will be exponentially distributed about the means given above.
+# format:
+# generator {GENERATOR} [KEY=VAL [KEY=VAL [...]]]
+# generator ChurnEventGenerator proto=Chord ipkeys=1 exittime=7200000
+# generator ChurnEventGenerator proto=Kademlia ipkeys=1 exittime=7200000
+# generator VnodeEventGenerator proto=LearnedDHT ipkeys=1 exittime=7200000 lifemean=3600000 deathmean=1500000 lookupmean=10000
+# generator VnodeEventGenerator proto=LearnedDHT ipkeys=1 exittime=7200000 lifemean=3600000 deathmean=1500000 lookupmean=10000
+# generator MarquesEventGenerator proto=Marques ipkeys=1 exittime=7200000 lifemean=3600000 deathmean=1500000 lookupmean=10000
+generator VnodeEventGenerator proto=LearnedDHT ipkeys=1 exittime=7200000 lifemean=3600000 deathmean=1500000 lookupmean=10000

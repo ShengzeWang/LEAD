@@ -1,0 +1,37 @@
+/* config.h.in.  Generated from configure.in by autoheader.  */
+
+/* define if the compiler has ext/hash_map */
+#undef HAVE_EXT_HASH_MAP
+
+/* Define to 1 if you have the `gb' library (-lgb). */
+#undef HAVE_LIBGB
+
+/* define if the compiler implements namespaces */
+#undef HAVE_NAMESPACES
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Version number of package */
+#undef VERSION
+
+/* Define if using the dmalloc debugging malloc package */
+#undef WITH_DMALLOC
+
+/* Define if using Thomer's malloc debugging tool */
+#undef WITH_TMGDMALLOC
