@@ -6,7 +6,7 @@ For more information and more detailed implementations, please refer to the foll
 
 ## Related Repositories
 
-- **RM_Model** — A high-performance learned **Recursive Model Index (RMI)** C++ library for learned hashing, learned indexes, and learned systems.  
+- **RM_Model** — A high-performance learned **Recursive Model** C++ library for learned hashing, learned indexes, and learned systems.  
   https://github.com/ShengzeWang/RM
 
 - **LearnedHash** — The master repository for the learned hashing library ecosystem.  
